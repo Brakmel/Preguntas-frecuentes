@@ -1,0 +1,204 @@
+body {
+    background-image: url(img/Wolf.jpg);
+    margin: 0%;
+}
+.header_principal{
+    background-color: rgb(230, 80, 80);
+    width: 100%;
+    height: 300px;
+}
+.titulo{
+    background-color: rgb(230, 80, 80);
+    width: 100%;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    text-align: center;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    text-decoration-line: underline;
+    font-size: 50px;
+}
+.baul_buscador{
+    background-color: coral;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#buscar_ayuda{
+    border-radius: 10px;
+    width: 550px;
+    height: 50px;
+}
+/*ESTE ES EL CONTENEDOR DE LOS BOTONES */
+.Botones{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.izquierda_b{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.derecha_b{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.boton{
+    background-color: rgba(190, 58, 58, 0.752);;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: brown;
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    border-radius: 10px;
+    color: azure;
+}
+button:hover {
+    background-color: rgb(220, 99, 51);
+    transition: 10s;
+    cursor: pointer;
+}
+/*Aqui va el contenido central de la pagina, osea los recuadros con las preguntas frecuentes*/
+.main_principal{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+}
+/*Este es el contenido de la columna 1 del contenido central*/
+.columna_1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pregunta_f1a{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo_f1a{
+    background-color: rgb(230, 80, 80);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.contenido_f1a{
+    background-color: coral;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pregunta_f2a{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo_f2a{
+    background-color: rgb(230, 80, 80);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.contenido_f2a{
+    background-color: coral;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Este es el contenido de la columna 2 del contenido central*/
+.columna_2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pregunta_f1b{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo_f1b{
+    background-color: rgb(230, 80, 80);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.contenido_f1b{
+    background-color: coral;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pregunta_f2b{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo_f2b{
+    background-color: rgb(230, 80, 80);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.contenido_f2b{
+    background-color: coral;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
